@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-import pandas as pd
+import fireducks.pandas as pd
 import seaborn as sns
 import numpy as np
 import plotly.express as px
@@ -7,7 +7,6 @@ import plotly.graph_objects as go
 
 import itertools
 import torch
-
 from math import log
 
 from torchmetrics.functional.nominal import theils_u_matrix
